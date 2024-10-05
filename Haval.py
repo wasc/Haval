@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from Tools.Scanners import scanner_menu
+from Update import update
 from colors import *
 import sys
 import os
@@ -100,7 +101,7 @@ def main():
             show_help_msg()
             input(f"Press {GREEN}{BOLD}[ENTER]{RESET} to continue.")
         elif command.startswith("up"):
-            pass
+            update.main()
         elif command.startswith("ex"):
             print()
             sys.exit(1)
