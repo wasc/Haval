@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-from colors import *
-import time
 import sys
 import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from colors import *
+import time
 
 
 if os.geteuid() != 0:
@@ -19,7 +20,7 @@ def main():
  ══════════════════════════════╩══════════════════════════════
 """)
     try:
-        choice = str(input(f"{YELLOW}[?]{RESET} {BOLD}Would you like to proceed with the installation? Y/N: {RESET}")).lower()
+        choice = str(input(f"{YELLOW}{BOLD}[?]{RESET} {BOLD}Would you like to proceed with the installation? Y/N: {RESET}")).lower()
 
         if choice.startswith("y"):
             print(f"\n{BLUE}[*]{RESET} {GREEN}Installing required packages ...{RESET}\n")
