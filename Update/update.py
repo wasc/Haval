@@ -19,7 +19,7 @@ def main():
         if result.returncode == 0:
             time.sleep(0.3)
             loading()
-            print(f"{GREEN}{BOLD}[+]{RESET} Framework updated successfully!")
+            print(f"\n{GREEN}{BOLD}[+]{RESET} Framework updated successfully!")
             print(f"\nPlease restart the program. {GREEN}{BOLD}\"sudo python Haval.py\"{RESET}")
             sys.exit(1)
         else:
