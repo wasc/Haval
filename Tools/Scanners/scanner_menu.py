@@ -1,5 +1,5 @@
-from Tools.Scanner import network_scan
-from Tools.Scanner import port_scan
+from Tools.Scanners import network_scan
+from Tools.Scanners import port_scan
 from colors import *
 import Haval
 

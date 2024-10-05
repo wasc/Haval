@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from Tools.Scanner import scanner_menu
+from Tools.Scanners import scanner_menu
 from colors import *
 import sys
 import os
