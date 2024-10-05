@@ -7,7 +7,7 @@ import time
 
 
 if os.geteuid() != 0:
-    print(f"{RED}[ERROR]{RESET} {BOLD}This script must be run as Root.{RESET}")
+    print(f"{RED}{BOLD}[ERROR]{RESET} This script must be run as Root.")
     sys.exit(1)
 
 def main():
@@ -29,12 +29,12 @@ def main():
                 os.system("apt update")
                 result = os.system("pip3 install -r requirements.txt --break-system-packages")
             except KeyboardInterrupt:
-                print(f"{RED}[-]{RESET} {BOLD}Installation aborted.{RESET}")
+                print(f"{RED}{BOLD}[-]{RESET} Installation aborted.")
                 sys.exit(1)
             if result == 0:
                 print(f"\n{YELLOW}[!]{RESET} {GREEN}Successfully Installed!\n{RESET}")
             else:
-                print(f"\n{RED}[ERROR]{RESET} {BOLD}Installation failed. Please check the error messages and try again.\n{RESET}")
+                print(f"\n{RED}{BOLD}[ERROR]{RESET} Installation failed. Please check the error messages and try again.\n{RESET}")
                 sys.exit(1)
         elif choice.startswith("n"):
             print(f"\n{RED}[-]{RESET} {BOLD}Installation aborted.\n{RESET}")
@@ -43,7 +43,7 @@ def main():
             input(f"{RED}[-]{RESET} {BOLD}Wrong choice! Press [ENTER] to continue.{RESET}")
             main()
     except KeyboardInterrupt:
-        print(f"\n{RED}[-]{RESET} {BOLD}Installation aborted.\n{RESET}")
+        print(f"\n{RED}{BOLD}[-]{RESET} Installation aborted.\n")
         sys.exit(1)
 
 
