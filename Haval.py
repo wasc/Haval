@@ -99,7 +99,10 @@ def main():
             input(f"Press {GREEN}{BOLD}[ENTER]{RESET} to continue.")
         elif command.startswith("h"):
             show_help_msg()
-            input(f"Press {GREEN}{BOLD}[ENTER]{RESET} to continue.")
+            try:
+                input(f"Press {GREEN}{BOLD}[ENTER]{RESET} to continue.")
+            except KeyboardInterrupt:
+                continue
         elif command.startswith("up"):
             update.main()
         elif command.startswith("ex"):

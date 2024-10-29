@@ -6,8 +6,6 @@ It is not intended for illegal activities, **and you are responsible for any unl
 ![image](https://github.com/user-attachments/assets/ecd119d2-2235-413f-b474-8be93433a941)
 ![image](https://github.com/user-attachments/assets/8153a3b7-e594-4b4a-8c96-98360fa751a5)
 
-
-
 ## Options:
 Option | Description
 ------ | -----------

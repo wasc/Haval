@@ -27,6 +27,7 @@ def main():
             time.sleep(0.5)
             try:
                 os.system("apt update")
+                os.system("apt install nmap")
                 result = os.system("pip3 install -r requirements.txt --break-system-packages")
             except KeyboardInterrupt:
                 print(f"{RED}{BOLD}[-]{RESET} Installation aborted.")
