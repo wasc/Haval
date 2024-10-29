@@ -19,7 +19,7 @@ def show_menu():
     {GREEN}{BOLD}list{RESET}    -  Show available commands
     {GREEN}{BOLD}scan{RESET}    -  Starting the scanner
     {GREEN}{BOLD}sniff{RESET}   -  Starting the sniffer
-    {GREEN}{BOLD}ddos{RESET}    -  Launching the DDoS attack
+    {GREEN}{BOLD}dos{RESET}     -  Launching the DoS attack
     {GREEN}{BOLD}help{RESET}    -  Display information about the framework
     {GREEN}{BOLD}update{RESET}  -  Updates this framework via GitHub
     {GREEN}{BOLD}exit{RESET}    -  Exiting the program"""
@@ -70,9 +70,9 @@ def show_banner():
 | )   ( || )   ( |  \   /  | )   ( || (____/\
 |/     \||/     \|   \_/   |/     \|(_______/{RESET}
 
--- Haval Hacking Framework by wasc --
--- Version 1.0 --
--- Github : github.com/wasc --"""
+- Haval Hacking Framework by wasc -
+- Version 1.0 -
+- Github : github.com/wasc -"""
     print(banner)
 
 # Main function.
@@ -94,7 +94,7 @@ def main():
         elif command.startswith("sn"):
             print("It has not been developed yet.")
             input(f"Press {GREEN}{BOLD}[ENTER]{RESET} to continue.")
-        elif command.startswith("dd"):
+        elif command.startswith("d"):
             print("It has not been developed yet.")
             input(f"Press {GREEN}{BOLD}[ENTER]{RESET} to continue.")
         elif command.startswith("h"):
