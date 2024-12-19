@@ -12,7 +12,7 @@ Option | Description
 **list**  | Show available commands.
 **scan**  | Starting the scanner.
 **sniff** | Starting the sniffer
-**ddos**  | Launching the DDoS attack.
+**dos**   | Launching the Dos attack.
 **help**  | Display information about the framework.
 **update**| Update this framework via Github.
 
