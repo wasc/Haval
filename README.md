@@ -3,7 +3,7 @@ This framework is a small-scale hacking toolkit project designed to help you acc
 It is not intended for illegal activities, **and you are responsible for any unlawful use of this tool.**
 
 ## Screenshot:
-![image](https://github.com/user-attachments/assets/ecd119d2-2235-413f-b474-8be93433a941)
+![image](https://github.com/user-attachments/assets/07810cfc-f64d-4149-8712-b7447a8ca83d)
 ![image](https://github.com/user-attachments/assets/8153a3b7-e594-4b4a-8c96-98360fa751a5)
 
 ## Options:
