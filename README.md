@@ -39,7 +39,7 @@ Execute the installer with sudo:
 ```
 sudo python install.py
 ```
-Run Haval.py with sudo, Enjoy!
+Run Haval.py with sudo.
 ```
 sudo python Haval.py
 ```
