@@ -70,9 +70,9 @@ def show_banner():
 | )   ( || )   ( |  \   /  | )   ( || (____/\
 |/     \||/     \|   \_/   |/     \|(_______/{RESET}
 
-- Haval Hacking Framework by wasc -
-- Version 1.0 -
-- Github : github.com/wasc -"""
+{YELLOW}-- Haval 1.0 -- {RESET}
+{YELLOW}-- Author: @wasc -- {RESET}
+"""
     print(banner)
 
 # Main function.

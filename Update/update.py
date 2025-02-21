@@ -11,7 +11,7 @@ def loading():
     chars = ['/', '-', '\\', '|']
     for _ in range(6):  
         for char in chars:
-            sys.stdout.write('\r' + f"{BLUE}{BOLD}[*]{RESET} Updating the framework ...{char}")  
+            sys.stdout.write('\r' + f"{BLUE}{BOLD}[*]{RESET} Updating the framework...{char}")  
             sys.stdout.flush()  
             time.sleep(0.1)
 
